@@ -1,5 +1,6 @@
 import calculator.Calculator;
 import calculator.operator.Operator;
+import calculator.operator.Plus;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,7 +12,7 @@ public class Application {
 
         Operator[] operators = {
 //            TODO: Operator 인터페이스 구현 클래스 생성하기
-//            new Plus(),
+            new Plus(),
 //            new Minus(),
 //            new Times(),
 //            new Divide()
